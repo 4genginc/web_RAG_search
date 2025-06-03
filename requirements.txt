@@ -1,0 +1,34 @@
+# Core AI Dependencies
+openai>=1.12.0
+python-dotenv>=1.0.0
+
+# Personal RAG System Dependencies
+chromadb>=0.4.22
+
+# PDF Processing Libraries (for RAG system)
+PyPDF2>=3.0.1
+pypdf>=4.0.1
+pdfplumber>=0.10.0
+
+# Web Search Agent Dependencies
+duckduckgo-search>=6.0.0
+
+# Agent Framework (uncomment if you have this library)
+# agents>=1.0.0
+
+# Utility Libraries
+pathlib>=1.0.22
+logging>=0.4.9.6
+
+# Optional: Enhanced text processing
+nltk>=3.8.1
+spacy>=3.7.0
+
+# Development and Testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: For advanced features
+requests>=2.31.0
+beautifulsoup4>=4.12.0
